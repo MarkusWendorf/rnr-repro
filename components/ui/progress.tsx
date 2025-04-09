@@ -74,7 +74,7 @@ function Indicator({
 
   return (
     <ProgressPrimitive.Indicator asChild>
-      <View
+      <Animated.View
         style={indicator}
         className={cn("h-full bg-foreground", className)}
       />
